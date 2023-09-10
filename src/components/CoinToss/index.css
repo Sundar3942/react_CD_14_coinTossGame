@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.page {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-main-heading {
+  color: #a35200;
+  font-size: 30px;
+}
+.card-main-para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-image {
+  width: 200px;
+  margin: 20px;
+}
+.toss-btn {
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 15px;
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: bold;
+  cursor: pointer;
+}
+.toss-stats-container {
+  display: flex;
+  justify-content: space-around;
+}
+.toss-stats-element {
+  margin: 10px;
+  color: #334155;
+  font-size: 16px;
+  font-weight: bold;
+}
